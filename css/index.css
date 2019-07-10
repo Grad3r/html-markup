@@ -19,7 +19,6 @@ h1, h2, h3, h4, h5, h6, header, footer, nav {
     padding: 0;
     text-align: center;
 }
-
 p {
     margin: 0;
     padding: 0;
@@ -38,11 +37,9 @@ p {
     flex: 1;
     font-family: 'Neucha', cursive;
 }
-
 .top-header .top-menu li  {
     list-style-type: none;
 }
-
 .top-header .top-menu li a {
     font-size: 24px;
     text-transform: uppercase;
@@ -50,13 +47,10 @@ p {
     padding: 10px;
     color: var(--main-color);
 }
-
 .top-header .top-menu li a:hover {
     border: 1px solid var(--accent-color);
     border-radius: 20px;
 }
-
-
 .top-header .main-display {
     background-image: url(../img/background-medicine.jpg);    background-size: 100%;
     background-position: center;
@@ -67,27 +61,42 @@ p {
     flex-direction: column;
     font-family: 'Neucha', cursive;
     text-transform: uppercase;
-    font-size: 58px;
+    font-size: 46px;
     font-weight: bold;
     text-shadow: 8px 5px 5px white, 1em 0 1em black;
+    background-color: #FFE8DB;
+  border: 6px solid #85b4ff;
+  border-radius: 15px 100px 15px 100px;
 }
-
-
 .top-header h1 {
     color: var(--accent-color);
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 3rem;
 }
-
 @media (min-width: 670px) {
     .top-header nav {
         display: flex;
         align-items: center;
     }
 }
-
 @media (max-width: 670px) {
     .search-form input:focus {
         width: 370px;
     }
 }
+
+.service-info {
+
+    height: 10em;
+    position: relative
+}
+
+.service-info p {
+    font-family: 'Neucha';
+    font-size: 12px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
