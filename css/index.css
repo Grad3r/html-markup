@@ -52,9 +52,11 @@ p {
     border-radius: 20px;
 }
 .top-header .main-display {
-    background-image: url(../img/background-medicine.jpg);    background-size: 100%;
+    background-image: url(../img/background-medicine.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-position: center;
-    min-height: 300px;
+    min-height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
